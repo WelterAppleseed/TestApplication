@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.imageview.ShapeableImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:src="@drawable/ic_launcher_background"
+    android:scaleType="centerCrop"
+    android:id="@+id/banner_image"
+    android:layout_margin="16dp"
+    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+    android:layout_height="112dp">
+
+</com.google.android.material.imageview.ShapeableImageView>

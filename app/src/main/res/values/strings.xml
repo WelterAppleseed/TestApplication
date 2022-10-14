@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TestApplication</string>
+    <string name="town">Город</string>
+    <string name="menu">Меню</string>
+    <string name="profile">Профиль</string>
+    <string name="cart">Корзина</string>
+    <string name="mscw">Москва</string>
+    <string name="pizza">Пицца</string>
+    <string name="combo">Комбо</string>
+    <string name="desserts">Десерты</string>
+    <string name="drinks">Напитки</string>
+    <string name="food_descr">%s, %s</string>
+    <string name="cost">От 389 р</string>
+    <string-array name="towns">
+        <item>Москва</item>
+    </string-array>
+</resources>

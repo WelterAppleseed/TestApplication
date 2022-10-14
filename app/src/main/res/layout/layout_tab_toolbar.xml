@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    app:contentInsetStart="0dp"
+    android:background="@color/white">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:tabBackground="@drawable/tab_background_drawable"
+        app:tabIndicator="@android:color/transparent"
+        app:tabMinWidth="120dp"
+        app:tabRippleColor="@android:color/transparent"
+        android:layout_marginVertical="16dp"
+        app:tabMode="scrollable"
+        android:background="@android:color/transparent"
+        app:tabSelectedTextColor="@color/pink_button_color"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="@color/unselected_text_color"/>
+</androidx.appcompat.widget.Toolbar>
